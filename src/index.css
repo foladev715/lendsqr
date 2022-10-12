@@ -491,32 +491,42 @@ td {
   .login-left {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    margin-left: 10%;
-  }
-
-  .home {
-    margin-top: 15%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .home-left {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+    width: 100%;
     margin-left: 2%;
+  }
+
+  .login-right {
+    margin-top: 10%;
+    width: 80%;
+  }
+
+  .login-right h2 {
+    font-family: avenirnext-bold, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #213f7d;
+    margin-bottom: 5%;
+  }
+
+  .login-details {
+    color: #545f7d;
+    font-size: 20px;
+    font-family: avenirnext-regular, sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+  }
+
+  .login-form {
+    padding-top: 10%;
   }
 
   .search-box {
     margin-right: 2.5%;
     width: 50%;
     height: 50%;
-    /* margin-left: 1%; */
   }
 
   .header {
-    /* width: 100%; */
     height: 50px;
   }
 
@@ -553,6 +563,64 @@ td {
 
   .docs {
     margin-bottom: 5%;
+  }
+
+  .home-right h2 {
+    font-family: avenirnext-bold, sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #213f7d;
+    margin-bottom: 7%;
+    padding-left: 5%;
+  }
+
+  .home-right li {
+    margin-top: 3.5%;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 5%;
+  }
+
+  .home-left {
+    margin-top: 0%;
+    width: 100%;
+  }
+
+  .home {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+
+  .home-left {
+    width: 100%;
+    margin-left: 5%;
+  }
+
+  .home-details {
+    color: #545f7d;
+    font-size: 20px;
+    font-family: avenirnext-regular, sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    margin-left: 5%;
+  }
+
+  .home-right {
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 100%;
+  }
+  .logo {
+    width: 173.76px;
+    height: 36px;
+    margin-left: 5%;
+  }
+
+  .home-image {
+    padding-top: 7%;
   }
 }
 
